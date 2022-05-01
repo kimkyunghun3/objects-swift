@@ -15,6 +15,6 @@ class Theater {
     }
     
     public func enter(audience: Audience) {
-
+        ticketSeller.sellTo(audience: audience)
     }
 }
