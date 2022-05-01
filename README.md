@@ -6,7 +6,7 @@
 
 ## 목차
 
-1. 객체, 설계
+1. [객체, 설계](https://github.com/kimkyunghun3/objects-swift/pull/1)
 2. 객체지향 프로그래밍
 3. 역할, 책임, 협력
 4. 설계 품질과 트레이드오프
