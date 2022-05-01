@@ -14,7 +14,15 @@ class TicketSeller {
         self.ticketOffice = ticketOffice
     }
     
-    public func getTicketOffice() -> TicketOffice {
-        return ticketOffice
+    public func sellTo(audience: Audience) {
+        if (audience.getBag().hasInvitation()) {
+            let ticket: Ticket = ticketOffice.getTicket()
+            audience.getBag().setTicket(ticket: ticket)
+        } else {
+            let ticket: Ticket = ticketOffice.getTicket()
+            audience.getBag().minusAmount(amount: ticket.getFee())
+            ticketOffice.plusAmount(ticket.getFee())
+            audience.getBag().setTicket(ticket: ticket)
+        }
     }
 }
