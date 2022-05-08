@@ -8,21 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		64591562281E22EC00A571CD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64591561281E22EC00A571CD /* main.swift */; };
-		64E900822826C2FC00FD415B /* Screening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900812826C2FC00FD415B /* Screening.swift */; };
-		64E900842826C54B00FD415B /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900832826C54B00FD415B /* Money.swift */; };
-		64E900862826C71F00FD415B /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900852826C71F00FD415B /* Reservation.swift */; };
-		64E900882826C7BF00FD415B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900872826C7BF00FD415B /* Movie.swift */; };
-		64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900892827455A00FD415B /* DiscountPolicy.swift */; };
-		64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008B2827465E00FD415B /* DiscountCondition.swift */; };
-		64E9008E282746A300FD415B /* SequenceCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008D282746A300FD415B /* SequenceCondition.swift */; };
-		64E900902827474200FD415B /* PeriodCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008F2827474200FD415B /* PeriodCondition.swift */; };
-		64E900922827489900FD415B /* AmountDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900912827489900FD415B /* AmountDiscountPolicy.swift */; };
-		64E9009428274A5300FD415B /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009328274A5300FD415B /* PercentDiscountPolicy.swift */; };
-		64E9009628274DD400FD415B /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009528274DD400FD415B /* DayOfWeek.swift */; };
-		64E90098282750BD00FD415B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E90097282750BD00FD415B /* Customer.swift */; };
-		64E9009A2827534700FD415B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900992827534700FD415B /* Date+.swift */; };
-		64E9009C2827565700FD415B /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009B2827565700FD415B /* NoneDiscountPolicy.swift */; };
-		64E9009E2827572500FD415B /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009D2827572500FD415B /* DefaultDiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,21 +26,7 @@
 		6459155E281E22EC00A571CD /* objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objects; sourceTree = BUILT_PRODUCTS_DIR; };
 		64591561281E22EC00A571CD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		64E90061281EA90000FD415B /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		64E900812826C2FC00FD415B /* Screening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening.swift; sourceTree = "<group>"; };
-		64E900832826C54B00FD415B /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
-		64E900852826C71F00FD415B /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
-		64E900872826C7BF00FD415B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		64E900892827455A00FD415B /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
-		64E9008B2827465E00FD415B /* DiscountCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition.swift; sourceTree = "<group>"; };
-		64E9008D282746A300FD415B /* SequenceCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCondition.swift; sourceTree = "<group>"; };
-		64E9008F2827474200FD415B /* PeriodCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCondition.swift; sourceTree = "<group>"; };
-		64E900912827489900FD415B /* AmountDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDiscountPolicy.swift; sourceTree = "<group>"; };
-		64E9009328274A5300FD415B /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
-		64E9009528274DD400FD415B /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
-		64E90097282750BD00FD415B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		64E900992827534700FD415B /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
-		64E9009B2827565700FD415B /* NoneDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneDiscountPolicy.swift; sourceTree = "<group>"; };
-		64E9009D2827572500FD415B /* DefaultDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiscountPolicy.swift; sourceTree = "<group>"; };
+		64E9009F28275FCE00FD415B /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,22 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				64E90062281EA91D00FD415B /* Chapter1 */,
+				64E900A028275FF200FD415B /* Chapter2 */,
 				64591561281E22EC00A571CD /* main.swift */,
-				64E900812826C2FC00FD415B /* Screening.swift */,
-				64E900992827534700FD415B /* Date+.swift */,
-				64E900832826C54B00FD415B /* Money.swift */,
-				64E900852826C71F00FD415B /* Reservation.swift */,
-				64E90097282750BD00FD415B /* Customer.swift */,
-				64E9009528274DD400FD415B /* DayOfWeek.swift */,
-				64E900872826C7BF00FD415B /* Movie.swift */,
-				64E900892827455A00FD415B /* DiscountPolicy.swift */,
-				64E9009D2827572500FD415B /* DefaultDiscountPolicy.swift */,
-				64E9008D282746A300FD415B /* SequenceCondition.swift */,
-				64E9008B2827465E00FD415B /* DiscountCondition.swift */,
-				64E9008F2827474200FD415B /* PeriodCondition.swift */,
-				64E900912827489900FD415B /* AmountDiscountPolicy.swift */,
-				64E9009B2827565700FD415B /* NoneDiscountPolicy.swift */,
-				64E9009328274A5300FD415B /* PercentDiscountPolicy.swift */,
 			);
 			path = objects;
 			sourceTree = "<group>";
@@ -115,6 +72,14 @@
 				64E90061281EA90000FD415B /* Chapter1.playground */,
 			);
 			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		64E900A028275FF200FD415B /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				64E9009F28275FCE00FD415B /* Chapter2.playground */,
+			);
+			name = Chapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,22 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E900922827489900FD415B /* AmountDiscountPolicy.swift in Sources */,
-				64E900842826C54B00FD415B /* Money.swift in Sources */,
-				64E900822826C2FC00FD415B /* Screening.swift in Sources */,
-				64E900902827474200FD415B /* PeriodCondition.swift in Sources */,
-				64E9009E2827572500FD415B /* DefaultDiscountPolicy.swift in Sources */,
-				64E9008E282746A300FD415B /* SequenceCondition.swift in Sources */,
-				64E9009C2827565700FD415B /* NoneDiscountPolicy.swift in Sources */,
-				64E9009428274A5300FD415B /* PercentDiscountPolicy.swift in Sources */,
-				64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */,
-				64E9009A2827534700FD415B /* Date+.swift in Sources */,
-				64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */,
-				64E900862826C71F00FD415B /* Reservation.swift in Sources */,
-				64E90098282750BD00FD415B /* Customer.swift in Sources */,
-				64E9009628274DD400FD415B /* DayOfWeek.swift in Sources */,
 				64591562281E22EC00A571CD /* main.swift in Sources */,
-				64E900882826C7BF00FD415B /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
