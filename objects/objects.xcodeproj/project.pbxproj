@@ -22,6 +22,7 @@
 		64E90098282750BD00FD415B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E90097282750BD00FD415B /* Customer.swift */; };
 		64E9009A2827534700FD415B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900992827534700FD415B /* Date+.swift */; };
 		64E9009C2827565700FD415B /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009B2827565700FD415B /* NoneDiscountPolicy.swift */; };
+		64E9009E2827572500FD415B /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009D2827572500FD415B /* DefaultDiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
