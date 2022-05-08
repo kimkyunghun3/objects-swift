@@ -14,6 +14,7 @@
 		64E900882826C7BF00FD415B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900872826C7BF00FD415B /* Movie.swift */; };
 		64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900892827455A00FD415B /* DiscountPolicy.swift */; };
 		64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008B2827465E00FD415B /* DiscountCondition.swift */; };
+		64E9009628274DD400FD415B /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009528274DD400FD415B /* DayOfWeek.swift */; };
 		64E90098282750BD00FD415B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E90097282750BD00FD415B /* Customer.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 				64E900832826C54B00FD415B /* Money.swift */,
 				64E900852826C71F00FD415B /* Reservation.swift */,
 				64E90097282750BD00FD415B /* Customer.swift */,
+				64E9009528274DD400FD415B /* DayOfWeek.swift */,
 				64E900872826C7BF00FD415B /* Movie.swift */,
 				64E900892827455A00FD415B /* DiscountPolicy.swift */,
 				64E9008B2827465E00FD415B /* DiscountCondition.swift */,
@@ -157,6 +159,7 @@
 				64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */,
 				64E900862826C71F00FD415B /* Reservation.swift in Sources */,
 				64E90098282750BD00FD415B /* Customer.swift in Sources */,
+				64E9009628274DD400FD415B /* DayOfWeek.swift in Sources */,
 				64591562281E22EC00A571CD /* main.swift in Sources */,
 				64E900882826C7BF00FD415B /* Movie.swift in Sources */,
 			);
