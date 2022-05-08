@@ -14,6 +14,7 @@
 		64E900882826C7BF00FD415B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900872826C7BF00FD415B /* Movie.swift */; };
 		64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900892827455A00FD415B /* DiscountPolicy.swift */; };
 		64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008B2827465E00FD415B /* DiscountCondition.swift */; };
+		64E9008E282746A300FD415B /* SequenceCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008D282746A300FD415B /* SequenceCondition.swift */; };
 		64E900902827474200FD415B /* PeriodCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008F2827474200FD415B /* PeriodCondition.swift */; };
 		64E900922827489900FD415B /* AmountDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900912827489900FD415B /* AmountDiscountPolicy.swift */; };
 		64E9009428274A5300FD415B /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009328274A5300FD415B /* PercentDiscountPolicy.swift */; };
@@ -44,6 +45,7 @@
 		64E900872826C7BF00FD415B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		64E900892827455A00FD415B /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
 		64E9008B2827465E00FD415B /* DiscountCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition.swift; sourceTree = "<group>"; };
+		64E9008D282746A300FD415B /* SequenceCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCondition.swift; sourceTree = "<group>"; };
 		64E9008F2827474200FD415B /* PeriodCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCondition.swift; sourceTree = "<group>"; };
 		64E900912827489900FD415B /* AmountDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDiscountPolicy.swift; sourceTree = "<group>"; };
 		64E9009328274A5300FD415B /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				64E9009528274DD400FD415B /* DayOfWeek.swift */,
 				64E900872826C7BF00FD415B /* Movie.swift */,
 				64E900892827455A00FD415B /* DiscountPolicy.swift */,
+				64E9008D282746A300FD415B /* SequenceCondition.swift */,
 				64E9008B2827465E00FD415B /* DiscountCondition.swift */,
 				64E9008F2827474200FD415B /* PeriodCondition.swift */,
 				64E900912827489900FD415B /* AmountDiscountPolicy.swift */,
@@ -170,6 +173,7 @@
 				64E900842826C54B00FD415B /* Money.swift in Sources */,
 				64E900822826C2FC00FD415B /* Screening.swift in Sources */,
 				64E900902827474200FD415B /* PeriodCondition.swift in Sources */,
+				64E9008E282746A300FD415B /* SequenceCondition.swift in Sources */,
 				64E9009428274A5300FD415B /* PercentDiscountPolicy.swift in Sources */,
 				64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */,
 				64E9009A2827534700FD415B /* Date+.swift in Sources */,
