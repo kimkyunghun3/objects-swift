@@ -16,6 +16,7 @@
 		64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9008B2827465E00FD415B /* DiscountCondition.swift */; };
 		64E9009628274DD400FD415B /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9009528274DD400FD415B /* DayOfWeek.swift */; };
 		64E90098282750BD00FD415B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E90097282750BD00FD415B /* Customer.swift */; };
+		64E9009A2827534700FD415B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E900992827534700FD415B /* Date+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		64E900892827455A00FD415B /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
 		64E9008B2827465E00FD415B /* DiscountCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition.swift; sourceTree = "<group>"; };
 		64E90097282750BD00FD415B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		64E900992827534700FD415B /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				64E90062281EA91D00FD415B /* Chapter1 */,
 				64591561281E22EC00A571CD /* main.swift */,
 				64E900812826C2FC00FD415B /* Screening.swift */,
+				64E900992827534700FD415B /* Date+.swift */,
 				64E900832826C54B00FD415B /* Money.swift */,
 				64E900852826C71F00FD415B /* Reservation.swift */,
 				64E90097282750BD00FD415B /* Customer.swift */,
@@ -156,6 +159,7 @@
 				64E900842826C54B00FD415B /* Money.swift in Sources */,
 				64E900822826C2FC00FD415B /* Screening.swift in Sources */,
 				64E9008A2827455A00FD415B /* DiscountPolicy.swift in Sources */,
+				64E9009A2827534700FD415B /* Date+.swift in Sources */,
 				64E9008C2827465E00FD415B /* DiscountCondition.swift in Sources */,
 				64E900862826C71F00FD415B /* Reservation.swift in Sources */,
 				64E90098282750BD00FD415B /* Customer.swift in Sources */,
