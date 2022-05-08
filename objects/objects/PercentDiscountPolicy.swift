@@ -7,16 +7,14 @@
 
 import Foundation
 
-class PercentDiscountPolicy: DiscountPolicy {
-    var conditions: [DiscountCondition]
-    private let percent: Double
-    
+class PercentDiscountPolicy: DefaultDiscountPolicy {
+    private var percent: Double
+ 
     init(percent: Double, conditions: [DiscountCondition]) {
         self.percent = percent
-        self.conditions = conditions
     }
     
-    func getDiscountAmount(screening: Screening) -> Money {
+    override func getDiscountAmount(screening: Screening) -> Money {
         return screening.getMovieFee().times(percent: percent)
     }
     

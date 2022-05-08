@@ -7,16 +7,14 @@
 
 import Foundation
 
-class AmountDiscountPolicy: DiscountPolicy {
-    var conditions: [DiscountCondition]
+class AmountDiscountPolicy: DefaultDiscountPolicy {
     private let discountAmount: Money
     
     init(discountAmount: Money, conditions: [DiscountCondition]) {
-        self.conditions = conditions
         self.discountAmount = discountAmount
     }
 
-    func getDiscountAmount(screening: Screening) -> Money {
+    override func getDiscountAmount(screening: Screening) -> Money {
         return discountAmount
     }
 }

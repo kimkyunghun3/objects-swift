@@ -8,9 +8,7 @@
 import Foundation
 
 class NoneDiscountPolicy: DiscountPolicy {
-    var conditions: [DiscountCondition] = []
-    
-    func getDiscountAmount(screening: Screening) -> Money {
+    func calculateDiscountAmount(screening: Screening) -> Money {
         return Money.zero
     }
 }
